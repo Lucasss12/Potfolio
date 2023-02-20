@@ -1,0 +1,45 @@
+.boxFormContact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.containerFormContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03a9f4;
+    border-radius: 15px;
+    padding: 30px;
+    width: 60%;
+    height: 500px;
+}
+
+.formContact{
+    width: 80%;
+}
+
+.btn-custom {
+    background-color: #ffffff;
+    color: rgb(53, 48, 48);
+}
+
+.btn-custom:hover {
+    background-color: #ffffff; 
+    color: rgb(53, 48, 48);
+  }
+
+.titleContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 70px;
+    width: 300px;
+    color: black;
+    margin-bottom: 50px;
+  
+}

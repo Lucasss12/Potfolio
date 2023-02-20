@@ -1,0 +1,27 @@
+.containerProject{
+	width: 100%;
+	height: auto;
+    padding: 30px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.cardProject{
+    background-color: rgb(218, 121, 137);
+    width: 80%;
+    height: 400px;
+    padding: 35px;
+    margin: 35px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.imgProject{
+    width: auto;
+    height: 270px;
+    background-color: blueviolet;
+}

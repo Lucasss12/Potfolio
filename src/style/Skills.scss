@@ -1,0 +1,167 @@
+// Resposive
+
+@media only screen and (max-width: 767px) {
+	.mobile {
+	  display: none;
+	}
+    .titleMySkill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        height: 70px;
+        width: 300px;
+        color: black;
+        border-style: solid;
+        border-color: #03a9f4;
+        margin-bottom: 100px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+	.desktop {
+	  display: none;
+	}
+    .titleMySkill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        height: 70px;
+        width: 400px;
+        color: black;
+       
+        margin-bottom: 100px;
+    }
+  }
+
+@media only screen and (min-width: 767px) {
+    .containerLangage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 170px;
+        width: 60%;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        background-color: #03a9f4;
+        padding: 18px;
+    }
+	}
+
+    
+@media only screen and (max-width: 1517px) {
+    .containerLangage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 170px;
+        width: 70%;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        background-color: #03a9f4;
+        padding: 18px;
+    }
+    }
+
+@media only screen and (max-width: 1289px) {
+    .containerLangage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 170px;
+        width: 80%;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        background-color: #03a9f4;
+        padding: 18px;
+    }
+    }
+
+@media only screen and (max-width: 1132px) {
+    .containerLangage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 170px;
+        width: 90%;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        background-color: #03a9f4;
+        padding: 18px;
+    }
+    }
+
+@media only screen and (max-width: 1028px) {
+    .containerLangage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 170px;
+        width: 100%;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        background-color: #03a9f4;
+        padding: 18px;
+    }
+    }
+
+.containerSkills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 930px;
+    width: 100%;
+    padding-top: 130px;
+    color: rgb(241, 227, 227);
+}
+
+
+.boxSkills{
+    background-color: rgb(71, 64, 64);
+    width: 175px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxLanagage{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.boxFramework{
+    display: flex;
+    justify-content: start;
+}
+
+// Logo Text
+
+.textSkillsLangage{
+    margin: 0;
+}
+.textSkill{
+    margin-top: 0px;
+}
+.logoCode{
+    text-align: center;
+}
+
+.iconIntro{
+    font-size: 400%;
+    margin: 20px 0 10px 0;
+}
+
+.logoSkills{
+    height: 30px;
+}
