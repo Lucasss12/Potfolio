@@ -1,0 +1,19 @@
+.navbar{
+    margin: 0% 6%;
+}
+
+.linkNavbar{
+    cursor: pointer;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-navbar-active-color);
+    text-align: start;
+}

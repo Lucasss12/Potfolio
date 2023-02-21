@@ -1,27 +1,56 @@
-.containerProject{
-	width: 100%;
-	height: auto;
-    padding: 30px;
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-}
+// Responsive
 
-.cardProject{
+@media only screen and (min-width: 768px) {
+    .containerProject{
+        width: 100%;
+        height: auto;
+        padding: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardProject{
+        background-color: rgb(218, 121, 137);
+        width: 80%;
+        height: 400px;
+        padding: 35px;
+        margin: 35px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .containerProject{
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .cardProject{
     background-color: rgb(218, 121, 137);
-    width: 80%;
-    height: 400px;
+    width: 100%;
+    height: 300px;
     padding: 35px;
-    margin: 35px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-}
+    margin-top: 35px;
+    margin-bottom: 35px;
+    }
+  }
+
+
 
 .imgProject{
     width: auto;
     height: 270px;
     background-color: blueviolet;
 }
+
+
+
+

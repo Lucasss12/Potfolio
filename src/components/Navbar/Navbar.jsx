@@ -13,10 +13,10 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                <Link className="fontSize nav-link active" to="skills" smooth={true} duration={50}>// Mes compétences</Link>
+                <Link className="linkNavbar fontSize nav-link active" to="skills" smooth={true} duration={50}>// Mes compétences</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="fontSize nav-link active" to="projets" smooth={true} duration={50}>// Mes projets</Link>
+                <Link className="linkNavbar fontSize nav-link active" to="projets" smooth={true} duration={50}>// Mes projets</Link>
 
                 </li>
             </ul>

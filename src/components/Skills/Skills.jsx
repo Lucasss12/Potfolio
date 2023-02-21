@@ -20,7 +20,7 @@ const Skills =() => {
                 <h1>// Mes compétences</h1>
             </div>
             <div className="containerLangage">
-                <div className="boxLanagage">
+                <div className="boxLangage">
                     <div className="boxSkills">
                         <img src={JsLogo} className='logoSkills' alt="JavaScript logo" /> <p className='textSkillsLangage'>Javascript</p>
                     </div>

@@ -1,3 +1,37 @@
+// Responsive
+
+@media only screen and (min-width: 768px) {
+    .containerFormContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #03a9f4;
+        border-radius: 15px;
+        padding: 30px;
+        width: 60%;
+        height: 500px;
+    }
+    .formContact{
+        width: 80%;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    .containerFormContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #03a9f4;
+        border-radius: 15px;
+        padding: 30px;
+        width: 80%;
+        height: 500px;
+    }
+    .formContact{
+        width: 100%;
+    }
+  }
+
 .boxFormContact{
     display: flex;
     justify-content: center;
@@ -7,20 +41,8 @@
     margin-bottom: 70px;
 }
 
-.containerFormContact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #03a9f4;
-    border-radius: 15px;
-    padding: 30px;
-    width: 60%;
-    height: 500px;
-}
 
-.formContact{
-    width: 80%;
-}
+
 
 .btn-custom {
     background-color: #ffffff;

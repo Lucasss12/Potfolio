@@ -5,6 +5,7 @@ $text-color : rgb(53, 48, 48);
 @import 'Projects';
 @import 'FormContract';
 @import 'Footer';
+@import 'Navbar';
 
 // Responsive
 
@@ -31,6 +32,7 @@ $text-color : rgb(53, 48, 48);
 	}
 	.logoArrow{
 		height: 30px;
+		cursor: pointer;
 	}
 	.logoArrowBottom {
 		display: flex;
@@ -68,6 +70,7 @@ $text-color : rgb(53, 48, 48);
 	}
 	.logoArrow{
 		height: 30px;
+		cursor: pointer;
 	}
 	.logoArrowBottom {
 		display: flex;
@@ -82,7 +85,6 @@ $text-color : rgb(53, 48, 48);
 body {
   background-color: $background-color;
   color: $text-color;
-  margin: 0% 6%;
   font-family: 'Crete Round', serif;
   scrollbar-width: none;
 }

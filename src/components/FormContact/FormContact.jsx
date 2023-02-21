@@ -28,23 +28,23 @@ const FormContact = () => {
                 <div className="col">
                     <div className="mb-3">
                     <label className="form-label"></label>
-                    <input type="text" className="form-control" placeholder="Nom" id="" name="name"/>
+                    <input type="text" className="form-control" placeholder="Nom" maxlength="30" id="" name="name"/>
                     </div>
                 </div>
                 <div className="col">
                     <div className="mb-3">
                     <label className="form-label"></label>
-                    <input type="email" className="form-control" placeholder="Email" id="" name="email"/>
+                    <input type="email" className="form-control" placeholder="Email" maxlength="50" id="" name="email"/>
                     </div>
                 </div>
                 </div>
                 <div className="mb-3">
                 <label className="form-label"></label>
-                <input type="text" className="form-control" placeholder="Sujet" id="" name="subject"/>
+                <input type="text" className="form-control" placeholder="Sujet" maxlength="100" id="" name="subject"/>
                 </div>
                 <div className="mb-3">
                 <label className="form-label"></label>
-                <textarea className="form-control" id="" placeholder="Message..." name="message" rows="5"></textarea>
+                <textarea className="form-control" id="" placeholder="Message..." maxlength="300" name="message" rows="5"></textarea>
                 </div>
                 <div className="mb-3">
                 <button type="submit" className="btn btn-custom">Envoyer</button>
